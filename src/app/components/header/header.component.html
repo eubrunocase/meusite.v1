@@ -1,0 +1,9 @@
+<header
+  class="fixed top-0 left-0 w-full max-w-7xl mx-auto flex justify-end gap-4 p-4 items-center"
+>
+  @for (nav of navigation(); track $index) {
+    <button class="navlink" (click)="goTo(nav.anchor)">
+      {{ nav.name }}
+    </button>
+  }
+</header>

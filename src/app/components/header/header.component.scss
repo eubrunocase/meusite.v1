@@ -1,0 +1,17 @@
+:host {
+  .navlink {
+    @apply select-none flex-col cursor-pointer flex font-medium text-primary text-sm uppercase hover:brightness-150 transition-all;
+
+    &::after {
+      @apply bg-primary;
+      content: "";
+      width: 0;
+      height: 2px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+}
