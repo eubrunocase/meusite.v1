@@ -1,4 +1,40 @@
-<section id="about" class="w-full h-screen"></section>
-<section id="skills" class="w-full h-screen"></section>
-<section id="projects" class="w-full h-screen"></section>
-<section id="contact" class="w-full h-screen"></section>
+<section
+  id="about"
+  class="w-full container mt-8 grid grid-cols-1 lg:grid-cols-2 min-h-[calc(100vh-200px)]"
+>
+  <div class="mt-[15%]">
+    <div class="flex flex-col items-center">
+      <h1 class="text-3xl sm:text-6xl text-primary font-bold -tracking-wider">
+        BRUNO CASÉ
+      </h1>
+      <h2 class="sm:text-lg text-primary/60">SOFTWARE ENGINEER</h2>
+    </div>
+    <div class="grid sm:grid-flow-col items-center justify-center my-8 gap-4">
+      <a href="/assets/CV.pdf" target="_blank">
+        <button onclick="download()">Download CV</button>
+      </a>
+      <span class="select-none sm:block hidden">|</span>
+      <button onclick="contact()">Contate-me</button>
+    </div>
+  </div>
+  <div class="h-full flex items-end">
+    <div
+      class="rounded-3xl bg-primary/20 w-full py-8 px-10 leading-5 max-w-[500px] mx-auto"
+    >
+      <h6 class="text-primary block text-center text-xl font-bold">
+        Sobre mim
+      </h6>
+      <p class="text-primary mt-4">
+        Sou um estudante de Engenharia de Software e entusiasta da tecnologia.
+        Apaixonado pela área desde cedo, sou motivado e criativo, com ótimo
+        trabalho em equipe. Desenvolvedor Fullstack com foco no backend.
+      </p>
+      <p class="text-primary mt-4 text-center">
+        I salve great challenges using tech.
+      </p>
+    </div>
+  </div>
+</section>
+<section id="skills" class="w-full"></section>
+<section id="projects" class="w-full"></section>
+<section id="contact" class="w-full"></section>

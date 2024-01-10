@@ -1,0 +1,11 @@
+:host {
+  section {
+    button {
+      @apply select-none py-2 px-6 rounded-full bg-primary/30 text-primary text-sm transition-colors font-medium;
+
+      &:hover {
+        @apply bg-primary/40;
+      }
+    }
+  }
+}
